@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+
+  customEvent(data: any) {
+    console.log('custom event fired!');
+    console.log(data);
+  }
 }

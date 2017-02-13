@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+<app-sidebar></app-sidebar>
+
+
+<app-custom-event [data]="'test'" [parameterData]="2" (clickEventHandle)="customEvent($event)"></app-custom-event>
